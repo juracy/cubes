@@ -122,4 +122,4 @@ if __name__ == '__main__':
     for cut in cuts:
         a = { 'cut': cut }
         a2 = proc_wildcards(a)
-        print "%-40s  %s" % (cut, a2)
+        print("%-40s  %s" % (cut, a2))

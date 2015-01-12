@@ -130,4 +130,4 @@ if __name__ == '__main__':
         'interval' : 24,
         'type': 'general'
     })
-    print data
+    print(data)

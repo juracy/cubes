@@ -113,8 +113,8 @@ class GoogleAnalyticsBrowser(AggregationBrowser):
 
         # TODO: remove this debug once satisfied
         import json
-        print "=== RESPONSE:"
-        print json.dumps(response, indent=4)
+        print("=== RESPONSE:")
+        print(json.dumps(response, indent=4))
 
         attributes = dimension_attrs + aggregates
         labels = [attr.ref() for attr in attributes]
